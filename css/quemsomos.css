@@ -1,0 +1,172 @@
+body {
+    background: #176370;
+}
+
+.aboute img {
+    width: 81%;
+}
+
+.aboute {
+    text-align: center;
+    margin-top: 120px !important;
+}
+
+.text_margn {
+    padding: 50px;
+}
+
+.aboute .par {
+    text-align: left;
+    font-size: 16px;
+    color: #e2e2e2;
+    font-weight: 600;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #59a506;
+}
+
+.aboute .par3 {
+    text-align: left;
+    font-size: 16px;
+    color: #e2e2e2;
+    font-weight: 600;
+}
+
+.rowimage img {
+    background: white;
+    padding: 20px;
+    width: 80%;
+}
+
+.rowimage {
+    margin: 80px !important;
+}
+
+.rowimage p {
+    font-weight: 600;
+    margin: 10px;
+    color: #000;
+}
+
+.rowprofile {
+    margin-top: 120px;
+}
+
+.rowprofile img {
+    width: 15rem;
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px #00000047;
+    border: 3px solid #39242a;
+}
+
+.rowprofile p {
+    color: #fff;
+    font-weight: 600;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.rowprofile span {
+    color: rgb(238, 238, 238);
+    font-weight: 400;
+}
+
+.avatar {
+    margin-top: 40px;
+}
+
+.manger img {
+    border-radius: 50%;
+    box-shadow: 10px 10px 5px #00000047;
+    border: 3px solid #59a506;
+    width: 22rem;
+}
+
+.boxer_image img {
+    width: 26rem;
+    border-radius: 40px;
+}
+
+.boxer_image_list li {
+    color: #e2e2e2;
+    font-weight: 600;
+}
+
+.boxer_image_list {
+    margin-top: 50px;
+}
+
+.boxer_image h1 {
+    margin-top: 15px;
+    color: #fff;
+    font-size: 38px;
+}
+
+.boxer_image_singale p {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.boxer_image_singale img {
+    width: 160px;
+}
+
+.Ortopeida {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+}
+
+.flot_image {
+    width: 60px;
+    background: white;
+    padding: 13px;
+    border-radius: 50%;
+    height: 60px;
+}
+
+.tatial {
+    display: inline-block;
+    margin: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.listen li {
+    font-size: 18px;
+    color: #f1f0f0;
+}
+
+.listenp {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.groub_card {
+    padding: 38px;
+    border-right: 2px solid #16830f;
+    margin-top: 67px;
+    background: #12535e;
+    color: rgb(233, 223, 223);
+    filter: drop-shadow(2px 4px 6px black);
+    margin: 16px;
+}
+
+.groub_card ul {
+    margin: 16px;
+    list-style: inside;
+}
+
+.row_card {
+    margin: 0px;
+    margin-top: 120px;
+    place-content: center;
+}
+
+.soon {
+    text-align: center;
+    margin-top: 180px;
+    color: #fff;
+}

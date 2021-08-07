@@ -1,0 +1,306 @@
+    body {
+        font-family: sans-serif;
+        margin: 0px;
+        padding: 0px;
+        background: #196370;
+        width: 100%;
+    }
+    
+    .naving ul {
+        width: 95%;
+        list-style: none;
+        text-align: right;
+        background-color: #fff;
+        margin-top: 8px;
+    }
+    
+    .naving li {
+        display: inline-block;
+        padding: 20px;
+        padding-top: 0px;
+        padding-right: 29px;
+        padding-bottom: 0px !important;
+        display: inline-block;
+        border-right: 1px solid;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-weight: bold;
+        color: #223988;
+        padding-bottom: 6px;
+    }
+    
+    li .active {
+        border-bottom: 3px solid #196370;
+    }
+    
+    .List_btn {
+        display: none;
+    }
+    
+    @media (max-width: 1200px) {
+        .background_image {
+            width: 0rem !important;
+            position: absolute;
+            right: 1px;
+            bottom: 1px;
+            overflow: hidden !important;
+        }
+        .ciercals1 {
+            text-align: center !important;
+            margin-top: 20px !important;
+        }
+        .ciercals2 {
+            text-align: center !important;
+            margin-top: 20px !important;
+        }
+        .clearfix li {
+            width: 40% !important;
+        }
+        .hide_slid {
+            display: block !important;
+        }
+        .row {
+            margin: 0px !important;
+        }
+        .naving ul {
+            display: none;
+        }
+        .naving li {
+            display: block;
+            text-align: center;
+            border: none;
+        }
+        .header_image {
+            height: 100% !important;
+            padding-top: 90px !important;
+            padding-bottom: 20px !important;
+            background-size: cover !important;
+        }
+        .logo {
+            background-color: #fff !important;
+            top: 4px !important;
+            width: fit-content;
+            height: fit-content !important;
+            position: absolute !important;
+            border-radius: 6px !important;
+        }
+        .logo img {
+            width: 71px !important;
+            height: 3rem !important;
+            text-align: center;
+            margin: 0px;
+            padding: 2px;
+            border-radius: 2px !important;
+            padding-right: 12px !important;
+            object-fit: cover;
+        }
+        .List_btn {
+            display: block;
+            width: 100%;
+            color: #fff;
+            text-align: right;
+            background: rgb(24 100 113);
+        }
+        .right {
+            text-align: center !important;
+        }
+        .iconlist {
+            font-size: 32px;
+            margin: 10px;
+        }
+    }
+    
+    .naving {
+        background-color: #fff;
+    }
+    
+    .naving a {
+        color: #1d3485;
+        padding-bottom: 7px;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    
+    .logo {
+        position: absolute;
+        top: 33px;
+        left: 32px;
+        background: white;
+        border-radius: 18px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    
+    .logo img {
+        width: 13rem;
+        border-bottom-left-radius: 13px;
+        border-bottom-right-radius: 13px;
+    }
+    
+    .haders {
+        width: 100%;
+    }
+    
+    .last_nav {
+        border: none !important;
+    }
+    
+    .header_image {
+        width: 100%;
+        height: 92vh;
+        background-color: #196370;
+        background-size: cover;
+        padding-top: 255px;
+        background-repeat: no-repeat;
+    }
+    
+    .header_image h1 {
+        font-weight: bold;
+        font-size: 25px;
+        color: #e2e2e2;
+    }
+    
+    .header_image .cetners {
+        text-align: center;
+    }
+    
+    .right {
+        text-align: right;
+    }
+    
+    .icon_header {
+        background: #fff;
+        padding: 23px;
+        border-radius: 15px;
+        font-size: 76px;
+        color: #1f756f
+    }
+    
+    .header_image p {
+        font-size: 25px;
+        color: #e2e2e2;
+    }
+    
+    .col-sm-3 {
+        flex: 0 0 auto;
+        width: 19% !important;
+    }
+    
+    .row-top {
+        margin-top: 60px !important;
+        margin-right: 0px !important;
+    }
+    
+    .boxer .text_right {
+        margin-right: -6px;
+    }
+    
+    .borders {
+        border-bottom: 3px solid rgb(10, 117, 6);
+    }
+    
+    .iamge1Icon {
+        width: 124px;
+    }
+    
+    .sooon {
+        text-align: center;
+        margin-top: 180px;
+        color: #fff;
+    }
+    
+    .sooon a {
+        color: #00265e;
+        text-decoration: underline;
+    }
+    
+    .foorers {
+        margin: 0px !important;
+        background: #73ad4a;
+        text-align: center;
+        padding-top: 20px;
+        border-radius: 0px;
+        filter: drop-shadow(2px 4px 6px rgba(63, 63, 63, 0.226));
+    }
+    
+    .foorers h6 {
+        color: #fff;
+    }
+    
+    .foorers p {
+        color: #fff;
+        margin: 5px;
+    }
+    
+    .foorers a {
+        font-size: 34px;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .ciercals {
+        width: 14px;
+        height: 14px;
+        background: #79d637;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    
+    .ciercals1 {
+        align-self: center;
+        margin-bottom: 46px;
+        text-align: -webkit-right;
+        text-align: center;
+    }
+    
+    .ciercals2 {
+        align-self: center;
+        margin-bottom: 46px;
+        text-align: -webkit-right;
+        text-align: center;
+    }
+    
+    footer {
+        margin: 0px;
+        padding: 0px;
+        background: #1d6272;
+        text-align: right;
+    }
+    
+    .float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+    }
+    
+    .my-float {
+        margin-top: 16px;
+    }
+    
+    @media only screen and (min-width: 320px) and (max-width: 560px) {
+        body {
+            -webkit-text-size-adjust: none;
+            background: #196370;
+        }
+    }
+    
+    .background_image {
+        width: 75rem;
+        position: absolute;
+        right: -1px;
+        bottom: -10px;
+    }
+    
+    .whatsappicon {
+        background-image: url("../imagens/whatsapp-logo-1.png");
+    }
