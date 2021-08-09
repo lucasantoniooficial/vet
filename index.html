@@ -5,100 +5,141 @@
     <meta charset="UTF-8">
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css"
+        integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css"
+        integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/abb2c0181a.js" crossorigin="anonymous"></script>
 
     <meta name="viewport" content="width=device-width; initial-scale=1.0;">
 
-
-
     <title>Clínica Veterinária Valdemar Pereira</title>
 </head>
 
 <body>
-    <div class="naving">
-        <div class="List_btn"><i class="fas fa-th-list iconlist"></i></div>
-        <a id="logo" class="logo"><img src="imagens/logoinicio.png" alt=""></a>
 
-        <ul>
-            <li>
-                <a class="active" href="index.html">Home</a>
+    <div class="navigation">
+        <div class="header_icon">
+            <img src="img/logo_clinica.png" alt="">
+        </div>
+        <ul class="topNav" id="topNav">
+            <li style="border: none;" class="icon_list Icon" id="Icon"><a href="javascript:void(0);" class="icon"
+                    onclick="respNav()">
+                    <i class="fa fa-bars"></i>
+                </a></li>
+
+            <li class="icon_list" style="border: none;"><a class="last_nav" href="/Contato.html">Contato</a></li>
+            <li class="icon_list"><a href="https://valdemar-pereira-online-shop.lojaintegrada.com.br/">Loja</a>
+                <div class="nav_line"></div>
             </li>
-            <li>
-                <a href="QuemSomos.html">Quem Somos</a>
+            <li class="icon_list"><a href="/Dicas.html">Dicas</a>
+                <div class="nav_line"></div>
             </li>
-            <li>
-                <a href="Equipe.html">Equipe</a>
+            <li class="icon_list"><a href="/Faq.html">Dúvidas</a>
+                <div class="nav_line"></div>
             </li>
-            <li>
-                <a href="Services.html">Serviços</a>
+            <li class="icon_list"><a href="/Services.html">Serviços</a>
+                <div class="nav_line"></div>
             </li>
-            <li><a href="Faq.html">Dúvidas</a>
+            <li class="icon_list"><a href="/Equipe.html">Equipe</a>
+                <div class="nav_line"></div>
             </li>
-            <li> <a href="Dicas.html">Dicas</a>
+            <li class="icon_list"><a href="/QuemSomos.html">Quem Somos</a>
+                <div class="nav_line"></div>
             </li>
-            <li>
-                <a href="Loja.html">Loja</a>
+            <li class="icon_list"><a href="/index.html">Home</a>
+                <div class="nav_line"></div>
             </li>
-            <li class="last_nav">Contato</li>
+
+            <div class="responsive_nav">
+
+                <li class="icon_list" style="border: none;"><a class="last_nav" href="/Contato.html">Contato</a></li>
+                <li class="icon_list"><a href="https://valdemar-pereira-online-shop.lojaintegrada.com.br/">Loja</a>
+                    <div class="nav_line"></div>
+                </li>
+                <li class="icon_list"><a href="/Dicas.html">Dicas</a>
+                    <div class="nav_line"></div>
+                </li>
+                <li class="icon_list"><a href="/Faq.html">Dúvidas</a>
+                    <div class="nav_line"></div>
+                </li>
+                <li class="icon_list"><a href="/Services.html">Serviços</a>
+                    <div class="nav_line"></div>
+                </li>
+                <li class="icon_list"><a href="/Equipe.html">Equipe</a>
+                    <div class="nav_line"></div>
+                </li>
+                <li class="icon_list"><a href="/QuemSomos.html">Quem Somos</a>
+                    <div class="nav_line"></div>
+                </li>
+                <li class="icon_list"><a href="/index.html">Home</a>
+                    <div class="nav_line"></div>
+                </li>
+            </div>
+
         </ul>
     </div>
-    <div class="header_image">
-        <div class="row" style="margin: 0px;">
-            <div class="col-xm-12 col-sm-12 col-md-12 col-lg-9   cetners">
-                <h1>A GENTE TE AJUDA A CUIDAR DO SEU PET DE MANEIRA EFETIVA E PRÁTICA
-                </h1>
-                <p>Clínica Veterinária Exclusiva para Cães e Gatos
-                </p>
-            </div>
-            <div class="col-12 col-sm-4 cetners"></div>
 
-        </div>
-        <div class="row row-top">
-            <div class="col-xm-12 col-sm-12 col-md-12 col-lg-2"></div>
-            <div class="col-xm-12 col-sm-12 col-md-12 col-lg-1 right">
-                <div class="boxer">
-                    <img class="icon_header iamge1Icon" src="imagens/proteç_o.png" alt="">
+    <section class="index_page">
+        <div class="header_image">
+            <div class="row">
+                <div class="title">
+                    <h1>A GENTE TE AJUDA A CUIDAR DO SEU PET DE MANEIRA EFETIVA E PRÁTICA</h1>
+                    <p>Clínica Veterinária Exclusiva para Cães e Gatos</p>
+                </div>
+            </div>
+
+
+
+            <div class="icon-container">
+
+                <div class="main-icon main_icon_1 circle_style">
+                    <div class="icon-bg">
+                        <img src="img/prevencao.png" alt="Icon">
+                    </div>
                     <p>Prevenção</p>
                 </div>
-            </div>
-            <div class="col-lg-1 col-xm-12 col-sm-12 col-md-12 ciercals1">
-                <p class="ciercals ">
-                </p>
-            </div>
-            <div class="col-xm-12 col-sm-12 col-md-12 col-lg-1 right">
-                <div class="boxer">
-
-                    <img class="icon_header iamge1Icon" src="imagens/diagnostico.png" alt="">
-                    <p class="text_right">Diagnóstico</p>
+                <div class="main-icon main_icon_2 circle_style">
+                    <div class="icon-bg">
+                        <img src="img/diagnostico.png" alt="Icon">
+                    </div>
+                    <p>Diagnóstico</p>
                 </div>
-            </div>
-            <div class="col-lg-1 col-xm-12 col-sm-12 col-md-12 ciercals2">
-                <p class="ciercals ">
-                </p>
-            </div>
-            <div class="col-xm-12 col-sm-12 col-md-12 col-lg-1 right">
-                <div class="boxer">
-                    <img class="icon_header iamge1Icon" src="imagens/medicacao.png" alt="" srcset="">
-                    <p class="text_right">Tratamento</p>
+                <div class="main-icon main_icon_3">
+                    <div class="icon-bg">
+                        <img src="img/medicacao.png" alt="Icon">
+                    </div>
+                    <p>Tratamento</p>
                 </div>
-            </div>
-            <div class="col-12 col-sm-4 cetners"></div>
-        </div>
-        <img class="background_image" src="../image/Untitled-1.png" alt="" srcset="">
 
-        <div class="row" style="background: #15b47c;margin: 0px;margin-top: 0px;">
-            <div class="col-12 col-sm-1 cetners"></div>
-            <div class="col-12 col-sm-5 cetners"></div>
+            </div>
 
         </div>
+
+        <div class="cat_dog_pics">
+            <img alt="cat_pic" class="dog_pic" src="img/cachorro.png">
+            <img src="img/gato.png" class="cat_pic" alt="Cat_pic">
+        </div>
+    </section>
+
+    <div class="row" style="background: #15b47c;margin: 0px;margin-top: 0px;">
+        <div class="col-12 col-sm-1 cetners"></div>
+        <div class="col-12 col-sm-5 cetners"></div>
     </div>
-    <script src="https://snapwidget.com/js/snapwidget.js"></script>
-    <iframe src="https://snapwidget.com/embed/954752" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;width:100%;"></iframe>
+    </div>
+
+
+    <div class="images_section">
+        <script src="https://snapwidget.com/js/snapwidget.js"></script>
+        <iframe src="https://snapwidget.com/embed/954752" class="snapwidget-widget" allowtransparency="true"
+            frameborder="0" scrolling="no" style="border:none; overflow:hidden;width:100%;"></iframe>
+    </div>
+
 
 
     <footer>
@@ -108,7 +149,7 @@
         </a>
         <div class="row foorers">
             <div style="place-self: center;" class="col-lg-3 col-md-12 col-sm-12 mt-20">
-                <img style="width: 10rem;" src="imagens/logobranco.png" alt="">
+                <img style="width: 10rem;" src="img/logo_clinica.png" alt="">
             </div>
             <div style="margin-top: 20px;place-self: center;" class="col-lg-3 col-md-12 col-sm-12 mt-20">
                 <h6>Horário de Atendimento:</h6>
@@ -121,34 +162,41 @@
                 <p style="     font-family: sans-serif;  font-size: medium;;">02064-120</p>
             </div>
             <div style="margin-top: 20px;place-self: center;" class="col-lg-3 col-md-12 col-sm-12 mt-20">
-                <p style="     font-family: sans-serif;   font-size: medium;    -webkit-text-size-adjust: 16px;">(11) 2901-7023
+                <p style="     font-family: sans-serif;   font-size: medium;    -webkit-text-size-adjust: 16px;">(11)
+                    2901-7023
                 </p>
-                <p style="    font-family: sans-serif;    font-size: medium;    -webkit-text-size-adjust: 16px;">(11) 2909-4862
+                <p style="    font-family: sans-serif;    font-size: medium;    -webkit-text-size-adjust: 16px;">(11)
+                    2909-4862
                 </p>
-                <a style="font-size: medium;     font-family: sans-serif;" href="https://api.whatsapp.com/send?1=pt_BR&phone=5511954220288" target="_blank">
+                <a style="font-size: medium;     font-family: sans-serif;"
+                    href="https://api.whatsapp.com/send?1=pt_BR&phone=5511954220288" target="_blank">
                     (11) 9.5422-0288
                 </a>
 
             </div>
-            <!-- <div style="margin-top: 20px;" class="col-lg-12 col-md-12 col-sm-12 mt-20">
+            <div style="margin-top: 20px;" class="col-lg-12 col-md-12 col-sm-12 mt-20">
                 <a href="https://www.facebook.com/ClinicaValdemar/"><i class="fab fa-facebook-square"></i></a>
                 <a href="https://www.instagram.com/clinica.valdemar/"><i class="fab fa-instagram-square"></i></a>
-            </div> -->
+            </div>
 
         </div>
 
     </footer>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <script>
+        function respNav() {
+            var x = document.getElementById("topNav");
+            if (x.className === "topNav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topNav";
+            }
+        }
+    </script>
 </body>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<script>
-    $(document).ready(function() {
-        $('.List_btn').click(function() {
-            $('ul').toggleClass('hide_slid');
-
-        })
-    })
-</script>
 
 </html>

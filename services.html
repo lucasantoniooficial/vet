@@ -3,91 +3,144 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css" integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/duotone.css"
+        integrity="sha384-R3QzTxyukP03CMqKFe0ssp5wUvBPEyy9ZspCB+Y01fEjhMwcXixTyeot+S40+AjZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css"
+        integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="css/quemsomos.css">
+    <script src="https://kit.fontawesome.com/abb2c0181a.js" crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;">
 
     <title>Serviços</title>
 </head>
 
 <body>
-    <div class="naving">
-        <ul>
-            <a class="logo"><img src="image/LogoMenor.png" alt=""></a>
-            <li>
-                <a href="index.html">Home</a>
+    <div class="navigation">
+        <div class="header_icon">
+            <img src="img/logo_clinica.png" alt="">
+        </div>
+        <ul class="topNav" id="topNav">
+            <li style="border: none;" class="icon_list Icon" id="Icon"><a href="javascript:void(0);" class="icon"
+                    onclick="respNav()">
+                    <i class="fa fa-bars"></i>
+                </a></li>
+
+            <li class="icon_list" style="border: none;"><a class="last_nav" href="/Contato.html">Contato</a></li>
+            <li class="icon_list"><a href="https://valdemar-pereira-online-shop.lojaintegrada.com.br/">Loja</a>
+                <div class="nav_line"></div>
             </li>
-            <li>
-                <a href="Quemsomos.html">Quem somos</a>
+            <li class="icon_list"><a href="/Dicas.html">Dicas</a>
+                <div class="nav_line"></div>
             </li>
-            <li>
-                <a href="Equipe.html">Equipe</a>
+            <li class="icon_list"><a href="/Faq.html">Dúvidas</a>
+                <div class="nav_line"></div>
             </li>
-            <li>
-                <a class="active" href="Services.html">Serviços</a>
+            <li class="icon_list"><a href="/Services.html">Serviços</a>
+                <div class="nav_line"></div>
             </li>
-            <li><a href="faq.html">Dúvidas</a>
+            <li class="icon_list"><a href="/Equipe.html">Equipe</a>
+                <div class="nav_line"></div>
             </li>
-            <li>
-                <a href="Dicas.html">
-                    Dicas
-                </a>
+            <li class="icon_list"><a href="/QuemSomos.html">Quem Somos</a>
+                <div class="nav_line"></div>
             </li>
-            <li>
-                <a href="loja.html">Loja</a>
+            <li class="icon_list"><a href="/index.html">Home</a>
+                <div class="nav_line"></div>
             </li>
-            <li> <a href="Contato.html">Contato</a>
-            </li>
+
+            <div class="responsive_nav">
+
+                <li class="icon_list" style="border: none;"><a class="last_nav" href="/Contato.html">Contato</a></li>
+                <li class="icon_list"><a href="https://valdemar-pereira-online-shop.lojaintegrada.com.br/">Loja</a>
+                    <div class="nav_line"></div>
+                </li>
+                <li class="icon_list"><a href="/Dicas.html">Dicas</a>
+                    <div class="nav_line"></div>
+                </li>
+                <li class="icon_list"><a href="/Faq.html">Dúvidas</a>
+                    <div class="nav_line"></div>
+                </li>
+                <li class="icon_list"><a href="/Services.html">Serviços</a>
+                    <div class="nav_line"></div>
+                </li>
+                <li class="icon_list"><a href="/Equipe.html">Equipe</a>
+                    <div class="nav_line"></div>
+                </li>
+                <li class="icon_list"><a href="/QuemSomos.html">Quem Somos</a>
+                    <div class="nav_line"></div>
+                </li>
+                <li class="icon_list"><a href="/index.html">Home</a>
+                    <div class="nav_line"></div>
+                </li>
+            </div>
 
         </ul>
     </div>
-    <div class="row" style="    margin-top: 180px;">
-        <div class="col-lg-2 col-md-4 col-sm-12 text-center">
-            <div class="boxer_image_singale">
-                <img class="icon_header iamge1Icon" src="image/stethoscope.png" alt="">
-                <p>Clínica Geral</p>
+
+
+    <section class="index_page">
+
+        <div class="row" style="    margin-top: 180px;">
+            <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+                <div class="boxer_image_singale">
+                    <img class="icon_header iamge1Icon" src="imagens/estetoscopio.png" alt="">
+                    <p>CONSULTA</p>
+                </div>
             </div>
-        </div>
-        <div class="col-lg-2 col-md-4 col-sm-12 text-center">
-            <div class="boxer_image_singale">
-                <img class="icon_header iamge1Icon" src="image/stethoscope.png" alt="">
-                <p>Cirurgias </p>
+            <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+                <div class="boxer_image_singale">
+                    <img class="icon_header iamge1Icon" src="imagens/bolsa.png" alt="">
+                    <p>MEDICAÇÕES </p>
+                </div>
             </div>
-        </div>
-        <div class="col-lg-2 col-md-4 col-sm-12 text-center">
-            <div class="boxer_image_singale">
-                <img class="icon_header iamge1Icon" src="image/stethoscope.png" alt="">
-                <p>Vacinas</p>
+            <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+                <div class="boxer_image_singale">
+                    <img class="icon_header iamge1Icon" src="imagens/vacina.png" alt="">
+                    <p>VACINAS</p>
+                </div>
             </div>
-        </div>
-        <div class="col-lg-2 col-md-4 col-sm-12 text-center">
-            <div class="boxer_image_singale">
-                <img class="icon_header iamge1Icon" src="image/stethoscope.png" alt="">
-                <p>Exames</p>
+            <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+                <div class="boxer_image_singale">
+                    <img class="icon_header iamge1Icon" src="imagens/cirurgia.png" alt="">
+                    <p>CIRURGIAS</p>
+                </div>
             </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+                <div class="boxer_image_singale">
+                    <img class="icon_header iamge1Icon" src="imagens/lab.png" alt="">
+                    <p>EXAMES</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+                <div class="boxer_image_singale">
+                    <img class="icon_header iamge1Icon" src="imagens/medicacao.png" alt="">
+                    <p>VENDAS</p>
+                </div>
+            </div>
+
         </div>
-        <div class="col-lg-2 col-md-4 col-sm-12 text-center">
-            <div class="boxer_image_singale">
-                <img class="icon_header iamge1Icon" src="image/stethoscope.png" alt="">
-                <p>Outros Serviços</p>
+        <div class="row" style="    margin-top: 150px;">
+            <div class="col-lg-2 col-md-6 col-sm-12 text-center ">
+                <h3 class="text-white ">Especialidades</h3>
+            </div>
+            <div class="col-lg-11 col-md-11 col-sm-12 Ortopeida">
+                <p>
+                <h4 class="text-white ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ortopedia - Dermatologia -
+                    Felinos -
+                    Ofalmologia -
+                    Oncologia - Reabilitação</h4>
+                </p>
             </div>
         </div>
 
-    </div>
-    <div class="row" style="    margin-top: 150px;">
-        <div class="col-lg-2 col-md-6 col-sm-12 text-center ">
-            <h3 class="text-white ">Especialidades</h3>
-        </div>
-        <div class="col-lg-11 col-md-11 col-sm-12 Ortopeida">
-            <h4 class="text-white ">Ortopedia - Dermatologia - Felinos - Ofalmologia - Oncologia - Reabilitação</h4>
-        </div>
-    </div>
+    </section>
 
     <footer>
         <div class="row foorers">
@@ -104,7 +157,8 @@
             <div style="margin-top: 20px;" class="col-lg-4 col-md-12 col-sm-12 mt-20">
                 <p>(11) 2901-7023</p>
                 <p>(11) 2909-4862</p>
-                <a style="font-size: 14px;" href="https://api.whatsapp.com/send?1=pt_BR&phone=5511954220288" target="_blank">
+                <a style="font-size: 14px;" href="https://api.whatsapp.com/send?1=pt_BR&phone=5511954220288"
+                    target="_blank">
                     (11) 9.5422-0288
                 </a>
 
