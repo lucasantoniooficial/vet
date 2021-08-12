@@ -299,7 +299,7 @@ footer > a > img {
         padding: 2rem;
         position: absolute;
         inset: 0;
-        transform: translateX(-1000%);
+        transform: translateX(-10000%);
         z-index: 2;
         gap: 1rem;
     }
